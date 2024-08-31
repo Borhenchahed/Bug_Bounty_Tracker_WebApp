@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container */
+.login-container, .register-container, .report-container, .view-container {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 350px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Headings */
+h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+/* Form Inputs */
+.input-section {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-section label {
+    font-size: 0.9em;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.input-section input, .input-section textarea, .input-section select {
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+/* Button */
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
